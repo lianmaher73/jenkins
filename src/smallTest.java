@@ -23,7 +23,7 @@ public class smallTest {
 
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void testLogin() {
 		WebElement userName = driver.findElement(By.id("username"));
 		userName.click();
@@ -38,7 +38,7 @@ public class smallTest {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void testLoginwithnonvalid() {
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		WebElement userName = driver.findElement(By.id("username"));

@@ -7,6 +7,7 @@
         <methods>
           <include name="befor"/>
           <include name="practice"/>
+          <include name="testLoginwithnonvalid"/>
           <include name="after"/>
         </methods>
       </class> <!-- smallTest -->
